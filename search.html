@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search.css">
+    <title>Search</title>
+</head>
+<body>
+     <!-- Header du site web -->
+     <header>
+        <img src="Assets-20220310T093826Z-001/Assets/Images/group-2.svg" alt="Stand-out" width="100" height="100">
+        <div>    
+            <a href="#index"><h1>[Events]</h1></a>
+        </div> 
+        <nav class="menu">
+            <ul>  
+                <li>
+                    <img src="Assets-20220310T093826Z-001/Assets/Icones/search.svg">
+                    <a href="search.html">Search</a>
+                </li>
+                <li>
+                    <img src="Assets-20220310T093826Z-001/Assets/Icones/user.svg">
+                    <a href="about.html">About</a>
+                </li>  
+                <li>
+                    <img src="Assets-20220310T093826Z-001/Assets/Icones/rss.svg">Blog
+                </li>  
+                <li>
+                    <img src="Assets-20220310T093826Z-001/Assets/Icones/menu.svg">More
+                </li>  
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <!-- Content -->
+        <div class="filter"> 
+            <h1>Filter by location, host, subject, date, daytime:</h1>
+            <div class="flex">
+                <div>
+                    <form method="post"  style="text-align: center; ">
+                    <label for="location"><h3>Location</h3></label>
+                    <input type="location" size="10">
+                </div>
+                <div>
+                    <form method="post"  style="text-align: center; ">
+                    <label for="host"><h3>Host</h3></label><br>
+                    <input type="location" size="10">
+                </div>
+                <div>
+                    <form method="post"  style="text-align: center; ">
+                    <label for="subject"><h3>Subject</h3></label>
+                    <input type="location" size="10">
+                </div>
+                <div>
+                    <form method="post"  style="text-align: center; ">
+                    <label for="subject"><h3>Initial date</h3></label>
+                    <input type="date" size="10">
+                </div>
+                <div>
+                    <form method="post"  style="text-align: center; ">
+                    <label for="subject"><h3>Final date</h3></label>
+                    <input type="date" size="10">
+                </div>
+                <div>
+                    <label><h3>Daytime</h3> 
+                        <select id="daytime">
+                            <option value="choose">Choose...</option>
+                            <option value="day1"> Day1</option>
+                            <option value="day2"> Day2</option>
+                        </select>
+                    </label>
+                </div>
+                <button type="search" class="btn-search">Search</button>
+
+                <button type="clear" class="btn-clear"><img src="Assets-20220310T093826Z-001/Assets/Icones/pen.svg" alt="clear" width="15">Clear Filter</button>
+            </div>
+        </div>
+
+        <div class="search-result">
+            <h2>Search Result Found 7 [Events] Nearby.</h2>
+            <div class="container">
+                <a href="about.html">
+                <img src="Assets-20220310T093826Z-001/Assets/Images/go to [gathering] exemple.png" alt="gathering" width="250" height="200">
+                </a>
+                <a href="about.html">
+                <img src="Assets-20220310T093826Z-001/Assets/Images/go to [gathering] exemple.png" alt="gathering" width="250" height="200">
+                </a>
+                <a href="about.html">
+                <img src="Assets-20220310T093826Z-001/Assets/Images/go to [gathering] exemple.png" alt="gathering" width="250" height="200">
+                </a>
+            </div>
+        </div>
+    </main>
+
+     <!-- Footer du site web -->
+     <footer>        
+        <div class="footer-top">
+            <div class="row-link">      
+                <div class="menu-left">          
+                    <ul >
+                        <li><a class="home" href="#index">Home</a></li>
+                        <li><a class="search" href="#search">Search</a></li> 
+                        <li><a class="about" href="#about">About us</a></li> 
+                        <li><a class="advertise" href="#index">Advertise</a></li>  
+                    </ul>
+                </div>
+                <div class="img-geo-box">
+                    <img src="Assets-20220310T093826Z-001/Assets/Icones/mapsnavbar_icon.png" alt="map" width="30" height="30">
+            </div>
+            <div class="menu-right">
+                    <ul >
+                        <li><a class="facebook" href="#index">Facebook</a></li>
+                        <li><a class="twitter" href="#index">Twitter</a></li> 
+                        <li><a class="instagram" href="#index">Instagram</a></li> 
+                        <li><a class="blog" href="#index">Blog</a></li>
+                    </ul>  
+                </div>                                           
+            </div>
+
+            <div class="row">
+                <div class="col1">
+                    <h3>Subscribe</h3>
+                    <form method="post">
+                    <label for="emailAddress"></label><br>
+                    <input id="Insert your e-mail here" type="email" placeholder="Insert your e-mail here" size="20">
+                    <button type="send" class="btn">Send</button>
+                    </form>
+                </div>            
+                <div class="col2">
+                    <h3>Contact</h3>
+                    <p>Have a question or suggestion?</p>
+                    <a href="#contact">contact@events.com</a>
+                </div>
+                <div class="col3">
+                    <h3>About</h3>
+                    <p>[Events] is an online plataform that works to improve and increase social life conections, when this nightmare that we are curently living in is over <a href="#about">learn more</a></p>
+                </div>                
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="social_media">
+                <div class="facebook"><img src="Assets-20220310T093826Z-001/Assets/Icones/facebook.png" alt="facebook" width="20" height="20"></div>
+                <div class="twitter"><img src="Assets-20220310T093826Z-001/Assets/Icones/twitter_icon.png" alt="twitter" width="20" height="20"></div>
+                <div class="instagram"><img src="Assets-20220310T093826Z-001/Assets/Icones/instagram.png" alt="instagram" width="20" height="20"></div>
+                <div class="tumblr"><img src="Assets-20220310T093826Z-001/Assets/Icones/tumblr.png" alt="tumblr" width="20" height="20"></div>
+                <div class="linkedin"><img src="Assets-20220310T093826Z-001/Assets/Icones/linkedin.png" alt="linkedin" width="20" height="20"></div>
+            </div>
+            <div class="copyright">
+                <p class="footer_copyright">© 2020 [Events], Inc. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
